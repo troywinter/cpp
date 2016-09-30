@@ -1,0 +1,9 @@
+﻿  Square.cpp
+  Generating Code...
+  Compiling...
+  Main.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Cube.cpp
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+  CopyAllPartsOfObject.vcxproj -> C:\Users\mengyu\documents\visual studio 2015\Projects\CopyAllPartsOfObject\Debug\CopyAllPartsOfObject.lib

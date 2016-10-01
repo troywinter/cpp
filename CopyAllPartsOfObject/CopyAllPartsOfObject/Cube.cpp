@@ -1,5 +1,6 @@
 #include "Cube.h"
 #include <iostream>
+#include <vector>
 
 
 
@@ -24,5 +25,11 @@ Cube & Cube::operator=(const Cube & copyObject)
 	height = copyObject.height;
 
 	return *this;
+}
+
+std::vector<int> Cube::display()
+{
+	std::vector<int> u{ length, width, height };
+	return u;
 }
 

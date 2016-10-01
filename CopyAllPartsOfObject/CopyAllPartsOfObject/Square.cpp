@@ -1,5 +1,6 @@
 #include "Square.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -29,6 +30,12 @@ bool Square::operator==(Square & compareObject) const
 		return true;
 	}
 	return false;
+}
+
+std::vector<int> Square::display()
+{
+	std::vector<int> v{ length, width };
+	return v;
 }
 
 Square::Square(const Square& copyObject): length(copyObject.length), width(copyObject.width)

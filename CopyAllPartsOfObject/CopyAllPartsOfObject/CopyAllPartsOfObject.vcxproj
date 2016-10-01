@@ -151,6 +151,7 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Square.h" />
+    <ClInclude Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cube.cpp" />

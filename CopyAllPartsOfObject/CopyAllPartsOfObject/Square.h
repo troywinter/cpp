@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 class Square
 {
 public:
@@ -7,6 +8,7 @@ public:
 	virtual ~Square();
 	Square& operator=(const Square& copyObject);
 	bool operator==(Square& compareObject) const;
+	virtual std::vector<int> display();
 	int length;
 	int width;
 };
